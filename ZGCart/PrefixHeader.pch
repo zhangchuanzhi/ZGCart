@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  ZGCart
+//
+//  Created by offcn_zcz32036 on 2017/6/13.
+//  Copyright © 2017年 offcn. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+ZGExt.h"
+//16进制RGB的颜色转换
+#define ZGCOLOR(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//R G B 颜色
+#define ZGColorFromRGB(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+//红色
+#define BASECOLOR_RED [UIColor \
+colorWithRed:((float)((0xED5565 & 0xFF0000) >> 16))/255.0 \
+green:((float)((0xED5565 & 0xFF00) >> 8))/255.0 \
+blue:((float)(0xED5565 & 0xFF))/255.0 alpha:1.0]
+
+
+
+#define ZGSCREEN_HEIGHT ([[UIScreen mainScreen]bounds].size.height)
+#define ZGSCREEN_WIDTH ([[UIScreen mainScreen]bounds].size.width)
+#define ZGNaigationBarHeight 64
+#define ZGTabBarHeight 49
+
+#define  TAG_CartEmptyView 100
+
+
+
+#endif

@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		2319F0381EEF8F740092B727 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319F0371EEF8F740092B727 /* main.m */; };
 		2319F03B1EEF8F740092B727 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319F03A1EEF8F740092B727 /* AppDelegate.m */; };
-		2319F03E1EEF8F740092B727 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319F03D1EEF8F740092B727 /* ViewController.m */; };
 		2319F0411EEF8F740092B727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2319F03F1EEF8F740092B727 /* Main.storyboard */; };
 		2319F0431EEF8F740092B727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2319F0421EEF8F740092B727 /* Assets.xcassets */; };
 		2319F0461EEF8F740092B727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2319F0441EEF8F740092B727 /* LaunchScreen.storyboard */; };
+		2319F0551EEF903B0092B727 /* ZGCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319F0521EEF903B0092B727 /* ZGCartController.m */; };
+		2319F05A1EEF94EE0092B727 /* UIView+ZGExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319F0591EEF94EE0092B727 /* UIView+ZGExt.m */; };
+		2319F05C1EEFB2610092B727 /* aaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2319F05B1EEFB2610092B727 /* aaa.jpg */; };
+		2319F05F1EEFB3330092B727 /* ZGCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319F05E1EEFB3330092B727 /* ZGCartModel.m */; };
+		2319F0621EEFB4960092B727 /* ZGCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2319F0611EEFB4960092B727 /* ZGCartCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		2319F0371EEF8F740092B727 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2319F0391EEF8F740092B727 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2319F03A1EEF8F740092B727 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2319F03C1EEF8F740092B727 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2319F03D1EEF8F740092B727 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2319F0401EEF8F740092B727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2319F0421EEF8F740092B727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2319F0451EEF8F740092B727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2319F0471EEF8F740092B727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2319F0511EEF903B0092B727 /* ZGCartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGCartController.h; sourceTree = "<group>"; };
+		2319F0521EEF903B0092B727 /* ZGCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGCartController.m; sourceTree = "<group>"; };
+		2319F0571EEF91270092B727 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2319F0581EEF94EE0092B727 /* UIView+ZGExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZGExt.h"; sourceTree = "<group>"; };
+		2319F0591EEF94EE0092B727 /* UIView+ZGExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZGExt.m"; sourceTree = "<group>"; };
+		2319F05B1EEFB2610092B727 /* aaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aaa.jpg; sourceTree = "<group>"; };
+		2319F05D1EEFB3330092B727 /* ZGCartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGCartModel.h; sourceTree = "<group>"; };
+		2319F05E1EEFB3330092B727 /* ZGCartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGCartModel.m; sourceTree = "<group>"; };
+		2319F0601EEFB4960092B727 /* ZGCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGCartCell.h; sourceTree = "<group>"; };
+		2319F0611EEFB4960092B727 /* ZGCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGCartCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +70,12 @@
 		2319F0351EEF8F740092B727 /* ZGCart */ = {
 			isa = PBXGroup;
 			children = (
+				2319F0561EEF90800092B727 /* Tools */,
+				2319F0501EEF903B0092B727 /* Controller */,
+				2319F0531EEF903B0092B727 /* Model */,
+				2319F0541EEF903B0092B727 /* View */,
 				2319F0391EEF8F740092B727 /* AppDelegate.h */,
 				2319F03A1EEF8F740092B727 /* AppDelegate.m */,
-				2319F03C1EEF8F740092B727 /* ViewController.h */,
-				2319F03D1EEF8F740092B727 /* ViewController.m */,
-				2319F03F1EEF8F740092B727 /* Main.storyboard */,
-				2319F0421EEF8F740092B727 /* Assets.xcassets */,
-				2319F0441EEF8F740092B727 /* LaunchScreen.storyboard */,
-				2319F0471EEF8F740092B727 /* Info.plist */,
 				2319F0361EEF8F740092B727 /* Supporting Files */,
 			);
 			path = ZGCart;
@@ -74,9 +84,51 @@
 		2319F0361EEF8F740092B727 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2319F03F1EEF8F740092B727 /* Main.storyboard */,
+				2319F05B1EEFB2610092B727 /* aaa.jpg */,
+				2319F0421EEF8F740092B727 /* Assets.xcassets */,
+				2319F0441EEF8F740092B727 /* LaunchScreen.storyboard */,
+				2319F0471EEF8F740092B727 /* Info.plist */,
 				2319F0371EEF8F740092B727 /* main.m */,
+				2319F0571EEF91270092B727 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2319F0501EEF903B0092B727 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2319F0511EEF903B0092B727 /* ZGCartController.h */,
+				2319F0521EEF903B0092B727 /* ZGCartController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2319F0531EEF903B0092B727 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2319F05D1EEFB3330092B727 /* ZGCartModel.h */,
+				2319F05E1EEFB3330092B727 /* ZGCartModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2319F0541EEF903B0092B727 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2319F0601EEFB4960092B727 /* ZGCartCell.h */,
+				2319F0611EEFB4960092B727 /* ZGCartCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2319F0561EEF90800092B727 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2319F0581EEF94EE0092B727 /* UIView+ZGExt.h */,
+				2319F0591EEF94EE0092B727 /* UIView+ZGExt.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2319F0461EEF8F740092B727 /* LaunchScreen.storyboard in Resources */,
+				2319F05C1EEFB2610092B727 /* aaa.jpg in Resources */,
 				2319F0431EEF8F740092B727 /* Assets.xcassets in Resources */,
 				2319F0411EEF8F740092B727 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2319F03E1EEF8F740092B727 /* ViewController.m in Sources */,
+				2319F0551EEF903B0092B727 /* ZGCartController.m in Sources */,
 				2319F03B1EEF8F740092B727 /* AppDelegate.m in Sources */,
+				2319F05F1EEFB3330092B727 /* ZGCartModel.m in Sources */,
 				2319F0381EEF8F740092B727 /* main.m in Sources */,
+				2319F0621EEFB4960092B727 /* ZGCartCell.m in Sources */,
+				2319F05A1EEF94EE0092B727 /* UIView+ZGExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +330,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGCart/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGCart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGCart;
@@ -285,6 +343,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGCart/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGCart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGCart;

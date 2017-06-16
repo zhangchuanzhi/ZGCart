@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZGCartController.h
 //  ZGCart
 //
 //  Created by offcn_zcz32036 on 2017/6/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZGCartController : UIViewController
 
 @end
-
